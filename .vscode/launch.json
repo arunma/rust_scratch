@@ -1,0 +1,563 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rust_scratch'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rust_scratch",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "rust_scratch",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rust_scratch'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rust_scratch",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "rust_scratch",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'error1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=error1",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "error1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'error1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=error1",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "error1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'binmain'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=binmain",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "binmain",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'binmain'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=binmain",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "binmain",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rc'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rc",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "rc",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rc'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rc",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "rc",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'lifetimes1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=lifetimes1",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "lifetimes1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'lifetimes1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=lifetimes1",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "lifetimes1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rc_sampl'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rc_sampl",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "rc_sampl",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rc_sampl'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rc_sampl",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "rc_sampl",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'deref'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=deref",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "deref",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'deref'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=deref",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "deref",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'rc_refcell'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=rc_refcell",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "rc_refcell",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'rc_refcell'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=rc_refcell",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "rc_refcell",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'traits_largest'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=traits_largest",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "traits_largest",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'traits_largest'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=traits_largest",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "traits_largest",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'lifetimes2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=lifetimes2",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "lifetimes2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'lifetimes2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=lifetimes2",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "lifetimes2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'refcell'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=refcell",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "refcell",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'refcell'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=refcell",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "refcell",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'error3'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=error3",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "error3",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'error3'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=error3",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "error3",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'commit_index'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=commit_index",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "commit_index",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'commit_index'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=commit_index",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "commit_index",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'lifetime_longest'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=lifetime_longest",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "lifetime_longest",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'lifetime_longest'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=lifetime_longest",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "lifetime_longest",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'error2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=error2",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "error2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'error2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=error2",
+                    "--package=rust_scratch"
+                ],
+                "filter": {
+                    "name": "error2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
