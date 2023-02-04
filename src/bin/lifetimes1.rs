@@ -1,4 +1,4 @@
-fn foo<'a>(x: &'a u32, y: &'a u32) -> &'a u32 {
+/* fn foo<'a>(x: &'a u32, y: &'a u32) -> &'a u32 {
     &x
 }
 
@@ -11,3 +11,6 @@ fn main() {
 
     println!("z is {}", z);
 }
+ */
+
+fn main() {}

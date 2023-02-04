@@ -1,6 +1,7 @@
 fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
-    let result = String::from("whatever");
-    result.as_str()
+    /* let result = String::from("whatever");
+    result.as_str() */
+    "x"
 }
 fn main() {
     println!("{}", longest("hello", "world123"));
